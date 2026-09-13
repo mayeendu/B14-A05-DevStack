@@ -1,0 +1,282 @@
+[
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    "name": "React",
+    "speciality": "Popular",
+    "shortFeatures": [
+      "Component-based UI",
+      "Virtual DOM",
+      "Large ecosystem",
+      "Reusable components"
+    ],
+    "technologyType": "Frontend",
+    "skillLevel": "Intermediate",
+    "rating": 4.9
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+    "name": "Vue.js",
+    "speciality": "Beginner-Friendly",
+    "shortFeatures": [
+      "Reactive components",
+      "Simple learning curve",
+      "Flexible architecture",
+      "Excellent documentation"
+    ],
+    "technologyType": "Frontend",
+    "skillLevel": "Beginner-Friendly",
+    "rating": 4.8
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg",
+    "name": "Svelte",
+    "speciality": "Fast",
+    "shortFeatures": [
+      "Compiler-based framework",
+      "Minimal runtime",
+      "Fast performance",
+      "Simple syntax"
+    ],
+    "technologyType": "Frontend",
+    "skillLevel": "Intermediate",
+    "rating": 4.7
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+    "name": "Next.js",
+    "speciality": "Versatile",
+    "shortFeatures": [
+      "Server-side rendering",
+      "Static generation",
+      "File-based routing",
+      "Full-stack capabilities"
+    ],
+    "technologyType": "Frontend",
+    "skillLevel": "Intermediate",
+    "rating": 4.9
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg",
+    "name": "Nuxt.js",
+    "speciality": "Versatile",
+    "shortFeatures": [
+      "SSR support",
+      "File-based routing",
+      "Vue ecosystem",
+      "SEO friendly"
+    ],
+    "technologyType": "Frontend",
+    "skillLevel": "Intermediate",
+    "rating": 4.6
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    "name": "Node.js",
+    "speciality": "Popular",
+    "shortFeatures": [
+      "JavaScript runtime",
+      "Event-driven architecture",
+      "Non-blocking I/O",
+      "Huge package ecosystem"
+    ],
+    "technologyType": "Backend",
+    "skillLevel": "Intermediate",
+    "rating": 4.9
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+    "name": "Express.js",
+    "speciality": "Lightweight",
+    "shortFeatures": [
+      "Minimal framework",
+      "REST API development",
+      "Middleware support",
+      "Easy routing"
+    ],
+    "technologyType": "Backend",
+    "skillLevel": "Beginner-Friendly",
+    "rating": 4.7
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg",
+    "name": "NestJS",
+    "speciality": "Scalable",
+    "shortFeatures": [
+      "TypeScript-first",
+      "Modular architecture",
+      "Dependency injection",
+      "Enterprise-ready"
+    ],
+    "technologyType": "Backend",
+    "skillLevel": "Advanced",
+    "rating": 4.7
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    "name": "JavaScript",
+    "speciality": "Standard",
+    "shortFeatures": [
+      "Web standard",
+      "Dynamic language",
+      "Huge ecosystem",
+      "Runs in browsers and servers"
+    ],
+    "technologyType": "Language",
+    "skillLevel": "Beginner-Friendly",
+    "rating": 4.9
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    "name": "TypeScript",
+    "speciality": "Type-Safe",
+    "shortFeatures": [
+      "Static typing",
+      "Better developer tooling",
+      "JavaScript compatible",
+      "Improved maintainability"
+    ],
+    "technologyType": "Language",
+    "skillLevel": "Intermediate",
+    "rating": 4.9
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+    "name": "Python",
+    "speciality": "Versatile",
+    "shortFeatures": [
+      "Simple syntax",
+      "Large ecosystem",
+      "Web development",
+      "AI and data science"
+    ],
+    "technologyType": "Language",
+    "skillLevel": "Beginner-Friendly",
+    "rating": 4.9
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+    "name": "PostgreSQL",
+    "speciality": "Powerful",
+    "shortFeatures": [
+      "Relational database",
+      "ACID compliant",
+      "Advanced SQL",
+      "Highly extensible"
+    ],
+    "technologyType": "Database",
+    "skillLevel": "Intermediate",
+    "rating": 4.9
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+    "name": "MySQL",
+    "speciality": "Popular",
+    "shortFeatures": [
+      "Relational database",
+      "Easy to use",
+      "Widely adopted",
+      "Reliable performance"
+    ],
+    "technologyType": "Database",
+    "skillLevel": "Beginner-Friendly",
+    "rating": 4.7
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+    "name": "MongoDB",
+    "speciality": "Flexible",
+    "shortFeatures": [
+      "Document database",
+      "JSON-like documents",
+      "Flexible schema",
+      "Horizontal scaling"
+    ],
+    "technologyType": "Database",
+    "skillLevel": "Beginner-Friendly",
+    "rating": 4.7
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
+    "name": "Redis",
+    "speciality": "Fast",
+    "shortFeatures": [
+      "In-memory storage",
+      "Caching",
+      "Key-value database",
+      "Real-time applications"
+    ],
+    "technologyType": "Database",
+    "skillLevel": "Intermediate",
+    "rating": 4.8
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
+    "name": "GraphQL",
+    "speciality": "Flexible",
+    "shortFeatures": [
+      "API query language",
+      "Strongly typed",
+      "Precise data fetching",
+      "Single API endpoint"
+    ],
+    "technologyType": "Backend",
+    "skillLevel": "Intermediate",
+    "rating": 4.6
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+    "name": "Docker",
+    "speciality": "Standard",
+    "shortFeatures": [
+      "Containerization",
+      "Portable environments",
+      "Easy deployment",
+      "DevOps integration"
+    ],
+    "technologyType": "DevOps",
+    "skillLevel": "Intermediate",
+    "rating": 4.9
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+    "name": "Git",
+    "speciality": "Standard",
+    "shortFeatures": [
+      "Version control",
+      "Branching",
+      "Collaboration",
+      "Distributed workflow"
+    ],
+    "technologyType": "DevOps",
+    "skillLevel": "Beginner-Friendly",
+    "rating": 4.9
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+    "name": "Tailwind CSS",
+    "speciality": "Productive",
+    "shortFeatures": [
+      "Utility-first CSS",
+      "Responsive design",
+      "Highly customizable",
+      "Rapid UI development"
+    ],
+    "technologyType": "Frontend",
+    "skillLevel": "Beginner-Friendly",
+    "rating": 4.8
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg",
+    "name": "Angular",
+    "speciality": "Enterprise",
+    "shortFeatures": [
+      "Full-featured framework",
+      "TypeScript support",
+      "Dependency injection",
+      "Enterprise applications"
+    ],
+    "technologyType": "Frontend",
+    "skillLevel": "Advanced",
+    "rating": 4.6
+  }
+]

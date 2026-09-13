@@ -1,8 +1,27 @@
+import { Suspense } from "react";
+import Banner from "./components/Banner";
+import Body from "./components/Body";
+import Nav from "./components/Nav";
+import Technologies from "./components/technologies/Technologies";
+import type { Itechnology } from "./types/technologyType";
+
+const technologyFetch = async (): Promise<Itechnology[]> => {
+  const res = await fetch("/data.json");
+  return res.json();
+};
+
+// Initiate the promise once outside the component render cycle
+const technologyPromise = technologyFetch();
+
 function App() {
   return (
     <>
-      <h2 className="text-5xl text-red-500"> Hello World!</h2>
-      <button className="btn btn-secondary">Secondary</button>
+      <Nav />
+      <Banner />
+      <Body />
+      <Suspense fallback={<h2>Loading.....</h2>}>
+        <Technologies technologyPromise={technologyPromise} />
+      </Suspense>
     </>
   );
 }
