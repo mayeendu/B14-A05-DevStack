@@ -8,7 +8,7 @@ const Nav = () => {
       </div>
       <div>
         <ul className="flex gap-4 items-center font-medium">
-          <li>Home</li>
+          <li className="text-pink-600">Home</li>
           <li>Technologies</li>
           <li>Projects</li>
           <li>About</li> <li>Contacts</li>

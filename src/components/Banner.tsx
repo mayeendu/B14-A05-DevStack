@@ -8,7 +8,7 @@ const Banner = () => {
           <div className="flex flex-col justify-between gap-4 container mx-auto">
             <div>
               <h2 className="text-7xl font-bold "> Build Your Ideal </h2>
-              <h2 className="bg-gradient-to-r from-[#da5e39] from-50 to-[#6f02dc] bg-clip-text text-transparent text-7xl font-bold ">
+              <h2 className="text-gradient bg-clip-text text-transparent text-7xl font-bold ">
                 {" "}
                 Development Stack{" "}
               </h2>
@@ -19,7 +19,7 @@ const Banner = () => {
             </p>
           </div>
           <div className="flex items-center justify-center gap-4">
-            <button className="bg-gradient-to-r from-[#da5e39] to-[#e911cc] hover:from-blue-600 hover:to-purple-700 text-white font-medium px-6 py-2.5 rounded-lg shadow-md transition duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-purple-400">
+            <button className="logo-bg-gradient hover:from-blue-600 hover:to-purple-700 text-white font-medium px-6 py-2.5 rounded-lg shadow-md transition duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-purple-400">
               Explore Technologies
             </button>
 

@@ -4,6 +4,7 @@ import Body from "./components/Body";
 import Nav from "./components/Nav";
 import Technologies from "./components/technologies/Technologies";
 import type { Itechnology } from "./types/technologyType";
+import FooterCopy from "./components/footerCopy";
 
 const technologyFetch = async (): Promise<Itechnology[]> => {
   const res = await fetch("/data.json");
@@ -22,6 +23,7 @@ function App() {
       <Suspense fallback={<h2>Loading.....</h2>}>
         <Technologies technologyPromise={technologyPromise} />
       </Suspense>
+      <FooterCopy></FooterCopy>
     </>
   );
 }

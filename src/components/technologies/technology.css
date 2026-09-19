@@ -1,0 +1,27 @@
+.btn-not-visited {
+  display: block;
+  width: 100%;
+  height: 35px;
+  background-color: #000000;
+  border: 0;
+  border-radius: 1rem; /* 16px */
+  color: #fff;
+}
+
+.btn-visited {
+  display: block;
+  width: 100%;
+  height: 35px;
+  background-color: #a8a5a5;
+  border: 0;
+  border-radius: 1rem; /* 16px */
+  color: #fff;
+}
+
+.card-not-visited {
+  border: #eceeecfb solid 2px;
+}
+
+.card-visited {
+  border: #fca0a0 solid 2px;
+}

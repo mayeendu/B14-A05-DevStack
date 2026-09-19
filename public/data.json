@@ -1,282 +1,122 @@
 [
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-    "name": "React",
+    "id": 1,
+    "technologyLogo": "https://cdn.simpleicons.org/react",
+    "technologyName": "React",
     "speciality": "Popular",
-    "shortFeatures": [
-      "Component-based UI",
-      "Virtual DOM",
-      "Large ecosystem",
-      "Reusable components"
-    ],
+    "shortFeatures": "A powerful library for building fast and interactive user interfaces with reusable components.",
     "technologyType": "Frontend",
     "skillLevel": "Intermediate",
     "rating": 4.9
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
-    "name": "Vue.js",
-    "speciality": "Beginner-Friendly",
-    "shortFeatures": [
-      "Reactive components",
-      "Simple learning curve",
-      "Flexible architecture",
-      "Excellent documentation"
-    ],
+    "id": 2,
+    "technologyLogo": "https://cdn.simpleicons.org/vuedotjs",
+    "technologyName": "Vue.js",
+    "speciality": "Versatile",
+    "shortFeatures": "A progressive JavaScript framework designed for building modern and maintainable user interfaces.",
     "technologyType": "Frontend",
     "skillLevel": "Beginner-Friendly",
-    "rating": 4.8
-  },
-  {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg",
-    "name": "Svelte",
-    "speciality": "Fast",
-    "shortFeatures": [
-      "Compiler-based framework",
-      "Minimal runtime",
-      "Fast performance",
-      "Simple syntax"
-    ],
-    "technologyType": "Frontend",
-    "skillLevel": "Intermediate",
     "rating": 4.7
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-    "name": "Next.js",
-    "speciality": "Versatile",
-    "shortFeatures": [
-      "Server-side rendering",
-      "Static generation",
-      "File-based routing",
-      "Full-stack capabilities"
-    ],
-    "technologyType": "Frontend",
-    "skillLevel": "Intermediate",
-    "rating": 4.9
-  },
-  {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg",
-    "name": "Nuxt.js",
-    "speciality": "Versatile",
-    "shortFeatures": [
-      "SSR support",
-      "File-based routing",
-      "Vue ecosystem",
-      "SEO friendly"
-    ],
+    "id": 3,
+    "technologyLogo": "https://cdn.simpleicons.org/svelte",
+    "technologyName": "Svelte",
+    "speciality": "Fast",
+    "shortFeatures": "A modern framework that compiles components into highly optimized JavaScript for excellent performance.",
     "technologyType": "Frontend",
     "skillLevel": "Intermediate",
     "rating": 4.6
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-    "name": "Node.js",
-    "speciality": "Popular",
-    "shortFeatures": [
-      "JavaScript runtime",
-      "Event-driven architecture",
-      "Non-blocking I/O",
-      "Huge package ecosystem"
-    ],
-    "technologyType": "Backend",
+    "id": 4,
+    "technologyLogo": "https://cdn.simpleicons.org/nextdotjs",
+    "technologyName": "Next.js",
+    "speciality": "Full-Stack",
+    "shortFeatures": "A React framework for building production-ready applications with routing, server rendering, and APIs.",
+    "technologyType": "Frontend",
     "skillLevel": "Intermediate",
     "rating": 4.9
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-    "name": "Express.js",
+    "id": 5,
+    "technologyLogo": "https://cdn.simpleicons.org/nodedotjs",
+    "technologyName": "Node.js",
+    "speciality": "Popular",
+    "shortFeatures": "A JavaScript runtime that enables developers to build scalable and high-performance server-side applications.",
+    "technologyType": "Backend",
+    "skillLevel": "Intermediate",
+    "rating": 4.8
+  },
+  {
+    "id": 6,
+    "technologyLogo": "https://cdn.simpleicons.org/postgresql",
+    "technologyName": "PostgreSQL",
+    "speciality": "Standard",
+    "shortFeatures": "A powerful open-source relational database known for reliability, advanced features, and data integrity.",
+    "technologyType": "Database",
+    "skillLevel": "Intermediate",
+    "rating": 4.9
+  },
+  {
+    "id": 7,
+    "technologyLogo": "https://cdn.simpleicons.org/redis",
+    "technologyName": "Redis",
+    "speciality": "Ultra-Fast",
+    "shortFeatures": "An in-memory data store commonly used for caching, sessions, queues, and real-time applications.",
+    "technologyType": "Database",
+    "skillLevel": "Advanced",
+    "rating": 4.7
+  },
+  {
+    "id": 8,
+    "technologyLogo": "https://cdn.simpleicons.org/javascript",
+    "technologyName": "JavaScript",
+    "speciality": "Essential",
+    "shortFeatures": "A versatile programming language that powers interactive web applications and modern web development.",
+    "technologyType": "Language",
+    "skillLevel": "Beginner-Friendly",
+    "rating": 4.9
+  },
+  {
+    "id": 9,
+    "technologyLogo": "https://cdn.simpleicons.org/typescript",
+    "technologyName": "TypeScript",
+    "speciality": "Reliable",
+    "shortFeatures": "A strongly typed superset of JavaScript that improves code quality, scalability, and developer productivity.",
+    "technologyType": "Language",
+    "skillLevel": "Intermediate",
+    "rating": 4.9
+  },
+  {
+    "id": 10,
+    "technologyLogo": "https://cdn.simpleicons.org/mongodb",
+    "technologyName": "MongoDB",
+    "speciality": "Flexible",
+    "shortFeatures": "A document-oriented NoSQL database designed for flexible data models and scalable applications.",
+    "technologyType": "Database",
+    "skillLevel": "Beginner-Friendly",
+    "rating": 4.7
+  },
+  {
+    "id": 11,
+    "technologyLogo": "https://cdn.simpleicons.org/express",
+    "technologyName": "Express.js",
     "speciality": "Lightweight",
-    "shortFeatures": [
-      "Minimal framework",
-      "REST API development",
-      "Middleware support",
-      "Easy routing"
-    ],
+    "shortFeatures": "A minimal and flexible Node.js web framework for building APIs and server-side applications.",
     "technologyType": "Backend",
     "skillLevel": "Beginner-Friendly",
     "rating": 4.7
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg",
-    "name": "NestJS",
-    "speciality": "Scalable",
-    "shortFeatures": [
-      "TypeScript-first",
-      "Modular architecture",
-      "Dependency injection",
-      "Enterprise-ready"
-    ],
-    "technologyType": "Backend",
-    "skillLevel": "Advanced",
-    "rating": 4.7
-  },
-  {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-    "name": "JavaScript",
-    "speciality": "Standard",
-    "shortFeatures": [
-      "Web standard",
-      "Dynamic language",
-      "Huge ecosystem",
-      "Runs in browsers and servers"
-    ],
-    "technologyType": "Language",
-    "skillLevel": "Beginner-Friendly",
-    "rating": 4.9
-  },
-  {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-    "name": "TypeScript",
-    "speciality": "Type-Safe",
-    "shortFeatures": [
-      "Static typing",
-      "Better developer tooling",
-      "JavaScript compatible",
-      "Improved maintainability"
-    ],
-    "technologyType": "Language",
-    "skillLevel": "Intermediate",
-    "rating": 4.9
-  },
-  {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-    "name": "Python",
-    "speciality": "Versatile",
-    "shortFeatures": [
-      "Simple syntax",
-      "Large ecosystem",
-      "Web development",
-      "AI and data science"
-    ],
-    "technologyType": "Language",
-    "skillLevel": "Beginner-Friendly",
-    "rating": 4.9
-  },
-  {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
-    "name": "PostgreSQL",
-    "speciality": "Powerful",
-    "shortFeatures": [
-      "Relational database",
-      "ACID compliant",
-      "Advanced SQL",
-      "Highly extensible"
-    ],
-    "technologyType": "Database",
-    "skillLevel": "Intermediate",
-    "rating": 4.9
-  },
-  {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
-    "name": "MySQL",
-    "speciality": "Popular",
-    "shortFeatures": [
-      "Relational database",
-      "Easy to use",
-      "Widely adopted",
-      "Reliable performance"
-    ],
-    "technologyType": "Database",
-    "skillLevel": "Beginner-Friendly",
-    "rating": 4.7
-  },
-  {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-    "name": "MongoDB",
-    "speciality": "Flexible",
-    "shortFeatures": [
-      "Document database",
-      "JSON-like documents",
-      "Flexible schema",
-      "Horizontal scaling"
-    ],
-    "technologyType": "Database",
-    "skillLevel": "Beginner-Friendly",
-    "rating": 4.7
-  },
-  {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
-    "name": "Redis",
-    "speciality": "Fast",
-    "shortFeatures": [
-      "In-memory storage",
-      "Caching",
-      "Key-value database",
-      "Real-time applications"
-    ],
-    "technologyType": "Database",
-    "skillLevel": "Intermediate",
-    "rating": 4.8
-  },
-  {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
-    "name": "GraphQL",
-    "speciality": "Flexible",
-    "shortFeatures": [
-      "API query language",
-      "Strongly typed",
-      "Precise data fetching",
-      "Single API endpoint"
-    ],
-    "technologyType": "Backend",
-    "skillLevel": "Intermediate",
-    "rating": 4.6
-  },
-  {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
-    "name": "Docker",
-    "speciality": "Standard",
-    "shortFeatures": [
-      "Containerization",
-      "Portable environments",
-      "Easy deployment",
-      "DevOps integration"
-    ],
-    "technologyType": "DevOps",
-    "skillLevel": "Intermediate",
-    "rating": 4.9
-  },
-  {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-    "name": "Git",
-    "speciality": "Standard",
-    "shortFeatures": [
-      "Version control",
-      "Branching",
-      "Collaboration",
-      "Distributed workflow"
-    ],
-    "technologyType": "DevOps",
-    "skillLevel": "Beginner-Friendly",
-    "rating": 4.9
-  },
-  {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
-    "name": "Tailwind CSS",
-    "speciality": "Productive",
-    "shortFeatures": [
-      "Utility-first CSS",
-      "Responsive design",
-      "Highly customizable",
-      "Rapid UI development"
-    ],
+    "id": 12,
+    "technologyLogo": "https://cdn.simpleicons.org/tailwindcss",
+    "technologyName": "Tailwind CSS",
+    "speciality": "Utility-First",
+    "shortFeatures": "A utility-first CSS framework that enables developers to rapidly build responsive and modern user interfaces.",
     "technologyType": "Frontend",
     "skillLevel": "Beginner-Friendly",
     "rating": 4.8
-  },
-  {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg",
-    "name": "Angular",
-    "speciality": "Enterprise",
-    "shortFeatures": [
-      "Full-featured framework",
-      "TypeScript support",
-      "Dependency injection",
-      "Enterprise applications"
-    ],
-    "technologyType": "Frontend",
-    "skillLevel": "Advanced",
-    "rating": 4.6
   }
 ]
