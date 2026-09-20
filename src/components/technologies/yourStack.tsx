@@ -1,5 +1,5 @@
 import type { Dispatch, SetStateAction } from "react";
-import type { Itechnology } from "./types/technologyType";
+import type { Itechnology } from "../../../src/types/technologyType"
 import toast from "react-hot-toast";
 
 interface YourStackProps {
@@ -7,30 +7,18 @@ interface YourStackProps {
   setSelectedTech: Dispatch<SetStateAction<Itechnology[]>>;
 }
 
-const handleRemoveTech = (technologyId) => {
-  setSelectedTech(prev => prev.filter(
-    tech => tech.technologyId !== technologyId));
-};
-
 const YourStack = ({
   selectedTech,
   setSelectedTech,
 }: YourStackProps) => {
-
-
-
-  // Remove one technology 
-  // const handleRemoveTech = (technologyId: string | number) => {
-  //   setSelectedTech((previousTech) => previousTech.filter(
-  //     (tech) => tech.technologyId !== technologyId));
-  // };
-
-
-  const handleRemoveTech = (technologyName: string) => {
-    setSelectedTech((previousTech) => previousTech.filter(
-      (tech) => tech.technologyName !== technologyName
-    )
+  // Remove one technology
+  const handleRemoveTech = (technologyId: number) => {
+    setSelectedTech((previousTech) =>
+      previousTech.filter(
+        (tech) => tech.technologyId !== technologyId
+      )
     );
+
     toast.error("Removed Tech!");
   };
 
@@ -46,10 +34,9 @@ const YourStack = ({
   return (
     <div>
       <div className="card w-85 bg-base-100 shadow-sm">
-
         <div className="card-body">
 
-          {/* ***** headings ***** */}
+          {/* Heading */}
           <h2 className="card-title text-2xl font-bold">
             Your Stack
           </h2>
@@ -61,17 +48,13 @@ const YourStack = ({
 
           {/* Selected Technologies */}
           <div className="mt-4 space-y-3">
-
             {selectedTech.map((technology) => (
-
               <div
                 key={technology.technologyId}
                 className="flex items-center justify-between gap-3 p-3 rounded-lg bg-base-200"
               >
-
                 {/* Logo + Name */}
                 <div className="flex items-center gap-3">
-
                   <img
                     src={technology.technologyLogo}
                     alt={technology.technologyName}
@@ -87,14 +70,15 @@ const YourStack = ({
                       {technology.technologyType}
                     </p>
                   </div>
-
                 </div>
+
                 {/* Remove Button */}
-                <button type="button" onClick={() =>
-                  handleRemoveTech(technology.technologyName)
-                }
+                <button
+                  type="button"
+                  onClick={() => handleRemoveTech(technology.technologyId)}
                   className="btn btn-circle btn-sm btn-error"
-                  aria-label={`Remove ${technology.technologyName}`} >
+                  aria-label={`Remove ${technology.technologyName}`}
+                >
                   ✕
                 </button>
               </div>
@@ -108,9 +92,8 @@ const YourStack = ({
             </p>
           )}
 
-          {/* ****** Remove All Button ******** */}
+          {/* Remove All Button */}
           <div className="card-actions justify-end mt-9">
-
             <button
               type="button"
               onClick={handleRemoveAll}
@@ -119,15 +102,12 @@ const YourStack = ({
             >
               Remove All
             </button>
-
           </div>
 
         </div>
-
       </div>
     </div>
   );
 };
 
 export default YourStack;
-

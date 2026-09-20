@@ -4,7 +4,7 @@ import Body from "./components/Body";
 import Nav from "./components/Nav";
 import Technologies from "./components/technologies/Technologies";
 import type { Itechnology } from "./types/technologyType";
-import FooterCopy from "./components/footer";
+
 import { Toaster } from "react-hot-toast";
 import Footer from "./components/footer";
 

@@ -3,7 +3,7 @@ import {
   type SetStateAction,
 } from "react";
 
-import type { Itechnology } from "./types/technologyType";
+import type { Itechnology } from "../../../src/types/technologyType"
 import "./technology.css";
 import toast from "react-hot-toast";
 
@@ -71,8 +71,7 @@ const TechnologyCard = ({
           {/* Technology Type */}
           <li>
             <button
-              type="button" className="btn btn-active btn-xs sm:btn-sm"
-              className="btn btn-active h-6" >
+              type="button" className="btn btn-active btn-xs sm:btn-sm">
               {technology.technologyType}
             </button>
           </li>

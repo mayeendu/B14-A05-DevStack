@@ -4,7 +4,7 @@ import type {
   SetStateAction,
 } from "react";
 
-import type { Itechnology } from "./types/technologyType";
+import type { Itechnology } from "../../../src/types/technologyType"
 import AvailableTechnology from "./AvailableTechnology";
 import YourStack from "./yourStack";
 
@@ -17,7 +17,6 @@ export interface TechnologyProps {
 
 const Technologies = ({
   technologyPromise,
-  countTech,
   selectedTech,
   setSelectedTech,
 }: TechnologyProps) => {
@@ -39,7 +38,6 @@ const Technologies = ({
 
         {/* Your Stack */}
         <YourStack
-          countTech={countTech}
           selectedTech={selectedTech}
           setSelectedTech={setSelectedTech}
         />

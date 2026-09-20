@@ -1,4 +1,4 @@
-import React from "react";
+
 import TechnologyHeadline from "./technologies/technologyHeadline";
 
 const Body = () => {

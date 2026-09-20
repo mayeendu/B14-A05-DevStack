@@ -1,13 +1,12 @@
 
 import type { Dispatch, SetStateAction } from "react";
-import type { Itechnology } from "./types/technologyType";
+import type { Itechnology } from "../../../src/types/technologyType"
 import TechnologyCard from "./TechnologyCard";
 
-export interface AvailableTechnologyProps {
+interface AvailableTechnologyProps {
   technologies: Itechnology[];
   selectedTech: Itechnology[];
-  setSelectedTech: Dispatch<
-    SetStateAction<Itechnology[]>>;
+  setSelectedTech: Dispatch<SetStateAction<Itechnology[]>>;
 }
 
 const AvailableTechnology = ({
