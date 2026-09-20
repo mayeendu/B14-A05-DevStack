@@ -7,4 +7,5 @@ export interface Itechnology {
   technologyType: string;
   skillLevel: string;
   rating: number;
+  length: number;
 }
