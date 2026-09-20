@@ -4,8 +4,9 @@ import Body from "./components/Body";
 import Nav from "./components/Nav";
 import Technologies from "./components/technologies/Technologies";
 import type { Itechnology } from "./types/technologyType";
-import FooterCopy from "./components/footerCopy";
+import FooterCopy from "./components/footer";
 import { Toaster } from "react-hot-toast";
+import Footer from "./components/footer";
 
 const technologyFetch = async (): Promise<Itechnology[]> => {
   const dataTech = await fetch("/data.json");
@@ -43,7 +44,7 @@ function App() {
         />
       </Suspense>
 
-      <FooterCopy />
+      <Footer />
 
       <Toaster
         position="top-right"

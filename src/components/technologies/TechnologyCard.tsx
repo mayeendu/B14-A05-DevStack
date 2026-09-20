@@ -26,14 +26,15 @@ const TechnologyCard = ({
 
   // Add technology to the stack
   const handleSelectTech = () => {
-    // Prevent duplicate technology
+    // Prevent duplicate added technology
     if (isSelected) {
+      toast.error("Cannot be added twice!");
       return;
     }
 
     setSelectedTech((previousTech) => [...previousTech, technology,]);
 
-    toast.success(`${technology.technologyName} added to your stack!`);
+    toast.success("Added to Stack!");
   };
 
   return (
@@ -93,7 +94,7 @@ const TechnologyCard = ({
           <button
             type="button"
             onClick={handleSelectTech}
-            disabled={isSelected}
+
             className={`technology w-full sm:w-auto
             ${isSelected ? "btn-visited" : "btn-not-visited"}`}>
             {isSelected ? "Stack added" : "Add to Stack"}

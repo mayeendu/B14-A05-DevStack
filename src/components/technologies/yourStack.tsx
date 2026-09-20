@@ -31,12 +31,13 @@ const YourStack = ({
       (tech) => tech.technologyName !== technologyName
     )
     );
-    toast.error(` ${technologyName} Removed from your stack!`);
+    toast.error("Removed Tech!");
   };
 
   // Remove all technologies
   const handleRemoveAll = () => {
     setSelectedTech([]);
+    toast.error("All Removed!");
   };
 
   // Number of selected technologies

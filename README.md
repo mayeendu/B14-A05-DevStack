@@ -1,32 +1,62 @@
-# React + TypeScript + Vite
+# DevStack
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple and responsive technology stack management application built with React and TypeScript. Users can explore available technologies, add their preferred technologies to their stack, and remove them whenever they want.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Live Website: 
 
-## React Compiler
+## Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+DevStack helps users build their own development technology stack from a list of available technologies.
 
-## Expanding the Oxlint configuration
+The application is designed with a clean, modern, and responsive interface that works across desktop, tablet, and mobile devices.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+---
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+## Technologies Used
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+- React
+- TypeScript
+- Tailwind CSS
+- DaisyUI
+- React Hot Toast
+- Vite
+- JSON
+- React Icons
+
+---
+
+## Features
+
+### 1. Add Technologies to Stack
+
+Users can select technologies from the available technology cards and add them to their personal stack.
+
+A technology cannot be added more than once.
+
+### 2. Remove Technologies from Stack
+
+Users can remove any technology individually from their stack using the `✕` button.
+
+There is also a **Remove All** button to clear the complete stack at once.
+
+### 3. Fully Responsive Design
+
+The application is responsive and works on different screen sizes.
+
+- Desktop layout
+- Tablet layout
+- Mobile layout
+- Responsive navbar
+- Mobile hamburger menu
+
+---
+
+# React Questions & Answers
+
+## 1. What is JSX, and why is it used in React?
+
+JSX is a syntax that allows us to write HTML-like code inside JavaScript or TypeScript.
+
+It makes React components easier to write and understand because we can describe the UI and logic together.
