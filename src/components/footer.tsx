@@ -34,7 +34,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Footer Menu Container (Spans 3 columns) */}
 
         <div className="md:col-span-3 grid grid-cols-3 gap-4">
           <div>
@@ -103,7 +102,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Line & Copyright Bar */}
       <div className="container mx-auto px-4 mt-8 pt-4 border-t border-gray-200 flex flex-col sm:flex-row justify-between items-center text-sm text-gray-500 gap-2">
         {/* Left Side: Copyright */}
         <p>&copy; {new Date().getFullYear()} DevStack. All rights reserved.</p>
